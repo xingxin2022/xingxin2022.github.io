@@ -16,9 +16,13 @@ Have fun creating your portfolio on this template!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+    <title>Xingxin Guo| Software Engineering Developer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
@@ -90,13 +94,13 @@ Have fun creating your portfolio on this template!!! -->
       src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
+      gtag("js", new Date());
 
-      gtag("config", "UA-122228201-4")
+      gtag("config", "UA-122228201-4");
     </script>
     <!-- End of Google Analytics -->
   </head>
@@ -105,9 +109,9 @@ Have fun creating your portfolio on this template!!! -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is <span class="text-color-main name">Xingxin Guo</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Software Engineer Developer.
         </h1>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -127,7 +131,7 @@ Have fun creating your portfolio on this template!!! -->
           <div class="about-wrapper__image">
             <img
               class="img-fluid"
-              src="./assets/profile.png"
+              src="./assets/profile.JPG"
               alt="Profile Image"
               width="450"
               height="350"
@@ -135,16 +139,24 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              🚀 Welcome! I am a spirited USC scholar weaving the threads of
+              Computer Science and Business Administration into a unique
+              tapestry of innovation, tech finesse, and strategic vision. At
+              school, I dive deep into the realms of data structures, AI, and
+              software engineering, emerging with enriched insights and
+              solutions.
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              ✨ I am also deeply committed to female empowerment. As the
+              Mentoring Lead for Women and Youth Supporting Each Other at USC, I
+              spearhead initiatives to educate middle-school girls in Los
+              Angeles on sexual health and empowerment. Furthermore, as the
+              founder of Lighten Us, a non-profit dedicated to sexual education
+              for children, I've extended this vital knowledge to over 5,000
+              students in underrepresented areas, garnering national accolades.
+              These endeavors demonstrate my unwavering commitment to societal
+              progress, blending my technological expertise with a passion for
+              meaningful change.
             </p>
             <span class="about-wrapper__cta">
               <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
@@ -159,17 +171,194 @@ Have fun creating your portfolio on this template!!! -->
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Internship</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                WorkUp - Incoming Android Developer Intern
+              </h3>
+              <p class="project-wrapper__text-info">
+                Work on the Android app with Kotlin and Android Studio.
+                Collaborate with a team of 7 in the agile cycle
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://joinworkup.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Company Page</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/workup.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Payby - Software Engineer Intern
+              </h3>
+              <p class="project-wrapper__text-info">
+                Redesigning the restaurant dashboard, implementing a fidelity
+                points feature, integrating machine learning models, and
+                streamlining deployment processes.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.linkedin.com/company/paybytech/mycompany/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Company Page</a
+                >
+                <a
+                  href="https://payby-dev-app.web.app/payby"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >See Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/payby.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                USC Annenberg Media - Software Developer Intern
+              </h3>
+              <p class="project-wrapper__text-info">
+                The mobile app for Annenberg Media News, targeting both Android
+                and iOS environments.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.uscannenbergmedia.com/app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Get The App</a
+                >
+                <!-- <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/annenberg.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">
+                Web App - Lets' Go Camping
+              </h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                A full-stack platform for coordinating camping trips to national
+                parks.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a
+                  href="https://github.com/xingxin2022/Lets-Go-Camping-"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/camping1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Web App - USC Dining Hall Review
+              </h3>
+              <p class="project-wrapper__text-info">
+                A full-stack web application enabling users to review USC dining
+                services, display menus, and provide feedback.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -189,7 +378,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/dining1.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -204,52 +393,12 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">
+                IOS App - What I Eat Tracker
+              </h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                A food tracker app for iOS to allow users track their food
+                intake with nutritions information
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -290,8 +439,8 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">guoxingx@usc.edu</p>
+          <a href="#" class="cta-btn cta-btn--resume">Email to Action</a>
         </div>
       </div>
     </section>
@@ -360,7 +509,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- END Footer Section -->
 
     <script>
-      document.getElementById("year").textContent = new Date().getFullYear()
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
     <script src="./javascript/vanilla-tilt.min.js"></script>
     <script type="text/javascript" src="./javascript/valtilt.js"></script>
